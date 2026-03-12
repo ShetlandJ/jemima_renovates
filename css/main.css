@@ -408,6 +408,7 @@ h1, h2, h3, h4 {
   font-size: clamp(2rem, 4vw, 2.75rem);
   margin-bottom: 1.5rem;
   letter-spacing: -0.02em;
+  color: inherit;
 }
 
 .about-teaser-text p {
