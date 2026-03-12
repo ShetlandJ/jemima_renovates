@@ -2,3 +2,5 @@
 .claude/
 *.py
 *.sh
+.playwright-mcp/
+morocco_bathroom/
