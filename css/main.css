@@ -419,7 +419,7 @@ h1, h2, h3, h4 {
 }
 
 .about-teaser-image {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 2;
   overflow: hidden;
   border-radius: 2px;
 }
@@ -497,7 +497,7 @@ h1, h2, h3, h4 {
 
 .about-intro img {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
 }
 
