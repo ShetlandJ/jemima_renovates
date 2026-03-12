@@ -1,42 +1,47 @@
 # Jemima Renovates — Website Tracker
 
-## Status: Scaffolded (placeholder content)
+## Status: Live (content being added)
 
-**Domain:** jemimarenovates.co.uk
-**Hosting:** GitHub Pages
+**Live URL:** https://shetlandj.github.io/jemima_renovates/
+**Domain:** jemimarenovates.co.uk (DNS not yet configured)
+**Hosting:** GitHub Pages (Actions workflow)
 **Tech:** Static HTML/CSS/JS (same approach as Park Circus Dream House)
 
 ## Pages
 
 | Page | File | Status |
 |---|---|---|
-| Homepage | `index.html` | Built — placeholder projects |
-| About | `about.html` | Built — placeholder bio & images |
-| Projects | `projects.html` | Built — placeholder cards |
-| Project template | `projects/example-project.html` | Built — template with lightbox |
-| Contact | `contact.html` | Built — placeholder email/socials |
+| Homepage | `index.html` | Live — 4 project cards, hero, about teaser |
+| About | `about.html` | Live — real bio, stats, testimonials, services |
+| Projects | `projects.html` | Live — 4 project cards |
+| Contact | `contact.html` | Live — email, Instagram, YouTube |
+| East End | `projects/east-end.html` | Live — full case study + gallery |
+| City Centre | `projects/city-centre.html` | Live — full case study + gallery |
+| Southside | `projects/southside.html` | Live — 9-photo gallery, Jan 2025 renovation |
+| Craigpark | `projects/craigpark.html` | Live — basic page, needs more content/photos |
+| Project template | `projects/example-project.html` | Template for future pages |
+
+## Project Card Order
+
+1. Craigpark
+2. East End
+3. City Centre
+4. Southside
 
 ## Design
 
 - **Palette:** Cream `#E8DCC8`, black `#1a1a1a`, charcoal `#333`, brown accent `#8B7355`
 - **Fonts:** DM Serif Display (headings) + Inter (body) via Google Fonts
-- **Style:** Bold editorial — full-bleed heroes, asymmetric grids, high contrast
+- **Style:** Bold editorial — full-bleed heroes, high contrast
 - **Deliberately different** from Steph's site (soft/warm/centered vs bold/editorial/wide)
 
 ## Still To Do
 
-- [ ] Get real project photos from Jemima
-- [ ] Replace all placeholder images (`images/hero.jpg`, `images/about-placeholder.jpg`, etc.)
-- [ ] Replace placeholder project cards with real projects
+- [ ] Configure custom domain DNS (jemimarenovates.co.uk)
+- [ ] More content/photos for Craigpark project page
 - [ ] Confirm email address (currently `hello@jemimarenovates.co.uk`)
-- [ ] Confirm Instagram handle (currently `@jemimarenovates`)
-- [ ] Get/confirm bio text from Jemima
-- [ ] Add real testimonials (if available)
-- [ ] Generate `favicon.ico` from the SVG
-- [ ] Set up Git LFS for project images (`brew install git-lfs`)
-- [ ] Create GitHub repo and push
-- [ ] Configure custom domain DNS
-- [ ] Test responsive layout at all breakpoints
+- [ ] Generate proper `favicon.ico` from the SVG
+- [ ] Set up Git LFS for large images
 - [ ] Validate HTML / check accessibility
 - [ ] Add any additional social links (TikTok, etc.)
 
@@ -50,12 +55,19 @@ jemima_renovates/
 ├── contact.html
 ├── css/main.css
 ├── js/lightbox.js
-├── images/              (placeholder — needs real images)
+├── images/
+│   ├── hero.jpg, jay.jpg, aberfeldy-lounge.jpg, argyle-st-*.jpg
+│   ├── craigpark-1.jpg, craigpark-2.jpg
+│   ├── about-wide.jpg, contact-hero.jpg, projects-hero.jpg
+│   └── southside/          (9 photos: pic1-pic9.jpg)
 ├── projects/
-│   └── example-project.html  (template)
+│   ├── east-end.html
+│   ├── city-centre.html
+│   ├── southside.html
+│   ├── craigpark.html
+│   └── example-project.html
 ├── logo.jpg
 ├── favicon.svg
-├── CNAME
 ├── sitemap.xml
 ├── robots.txt
 ├── .github/workflows/pages.yml
@@ -64,7 +76,9 @@ jemima_renovates/
 
 ## Notes
 
-- Lightbox JS (`js/lightbox.js`) adapted from proven pattern — keyboard nav, touch swipe, ARIA labels
-- GitHub Pages workflow includes LFS checkout for when we add large images
-- Each project page follows the template in `projects/example-project.html`
-- Nav/footer are duplicated per page (no build step) — same approach as Steph's site
+- Lightbox JS (`js/lightbox.js`) — keyboard nav, touch swipe, ARIA labels
+- GitHub Pages workflow includes LFS checkout
+- Nav/footer duplicated per page (no build step)
+- CSS cache-busted with `?v=4` query string
+- Bio/testimonials sourced from kelvingrovepropertysourcing.com
+- Southside photos by Amy @a.creative__
