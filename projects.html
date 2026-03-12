@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Jemima Renovates</title>
+    <meta name="description" content="Property sourcing and renovation projects by Jemima Spence across Glasgow and Scotland.">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.ico" sizes="32x32">
+    <link rel="canonical" href="https://jemimarenovates.co.uk/projects.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projects - Jemima Renovates">
+    <meta property="og:description" content="Property sourcing and renovation projects by Jemima Spence across Glasgow and Scotland.">
+    <meta property="og:url" content="https://jemimarenovates.co.uk/projects.html">
+</head>
+<body>
+    <a href="#main" class="skip-to-content">Skip to content</a>
+
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a href="index.html" class="nav-logo">
+            <img src="logo.jpg" alt="Jemima Renovates">
+            <span>Jemima Renovates</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <section class="page-hero" style="background-image: url('images/projects-hero.jpg');">
+            <h1>Projects</h1>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <p class="section-subheading">A selection of property sourcing and renovation work across Glasgow and Scotland.</p>
+
+                <div class="projects-grid">
+                    <a href="projects/east-end.html" class="project-card">
+                        <img src="images/aberfeldy-lounge.jpg" alt="East End tenement renovation">
+                        <div class="card-overlay">
+                            <h3>East End</h3>
+                            <span class="location">Glasgow</span>
+                        </div>
+                    </a>
+                    <a href="projects/city-centre.html" class="project-card">
+                        <img src="images/argyle-st-lounge.jpg" alt="City Centre renovation">
+                        <div class="card-overlay">
+                            <h3>City Centre</h3>
+                            <span class="location">Glasgow</span>
+                        </div>
+                    </a>
+                    <a href="projects/southside.html" class="project-card">
+                        <img src="images/craigpark-1.jpg" alt="Southside property">
+                        <div class="card-overlay">
+                            <h3>Southside</h3>
+                            <span class="location">Glasgow</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="https://www.instagram.com/jemimarenovates/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+                <p class="footer-copy">&copy; 2026 Jemima Renovates. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+        var toggle = document.querySelector('.nav-toggle');
+        var menu = document.querySelector('.nav-menu');
+        if (!toggle || !menu) return;
+        toggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            var open = menu.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+        });
+        document.addEventListener('click', function() {
+            menu.classList.remove('open');
+            toggle.setAttribute('aria-expanded', false);
+        });
+    })();
+    </script>
+</body>
+</html>

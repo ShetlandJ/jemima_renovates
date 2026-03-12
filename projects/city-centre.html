@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Centre - Jemima Renovates</title>
+    <meta name="description" content="Modern open-plan renovation of a one-bedroom tenement flat near Glasgow Central Station.">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="../favicon.ico" sizes="32x32">
+    <link rel="canonical" href="https://jemimarenovates.co.uk/projects/city-centre.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="City Centre - Jemima Renovates">
+    <meta property="og:description" content="Modern open-plan renovation near Glasgow Central Station.">
+    <meta property="og:url" content="https://jemimarenovates.co.uk/projects/city-centre.html">
+</head>
+<body>
+    <a href="#main" class="skip-to-content">Skip to content</a>
+
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a href="../index.html" class="nav-logo">
+            <img src="../logo.jpg" alt="Jemima Renovates">
+            <span>Jemima Renovates</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu">
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../projects.html" class="active">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <section class="page-hero" style="background-image: url('../images/argyle-st-lounge.jpg');">
+            <h1>City Centre</h1>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <dl class="project-meta">
+                    <div>
+                        <dt>Location</dt>
+                        <dd>City Centre, Glasgow</dd>
+                    </div>
+                    <div>
+                        <dt>Type</dt>
+                        <dd>1 Bed Tenement Flat</dd>
+                    </div>
+                    <div>
+                        <dt>Scope</dt>
+                        <dd>New kitchen, bathroom &amp; open plan conversion</dd>
+                    </div>
+                    <div>
+                        <dt>Yield</dt>
+                        <dd>7.8%</dd>
+                    </div>
+                </dl>
+
+                <p class="project-description">The client was a young professional living in London who had been sitting on a small pot of money and knew investing in property was a good idea but didn't know where to start, let alone have the time to travel up.</p>
+
+                <p class="project-description">We secured a one-bedroom tenement flat right in the heart of the city close to Central Station that had seen better days with a small kitchen but had potential to open it out. We embarked on a new kitchen and bathroom and created a very modern chic open-plan space. The property was reserved on the first viewing by a young professional delighted with what was on offer.</p>
+
+                <div class="image-gallery">
+                    <div class="gallery-item full-bleed">
+                        <img src="../images/argyle-st-lounge.jpg" alt="Open plan living space">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/argyle-st-crop.jpg" alt="Interior detail">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/craigpark-2.jpg" alt="Kitchen detail">
+                    </div>
+                </div>
+
+                <nav class="project-nav" aria-label="Project navigation">
+                    <a href="east-end.html">&larr; Previous Project</a>
+                    <a href="../projects.html">All Projects</a>
+                    <a href="southside.html">Next Project &rarr;</a>
+                </nav>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="../about.html">About</a>
+                    <a href="../projects.html">Projects</a>
+                    <a href="../contact.html">Contact</a>
+                    <a href="https://www.instagram.com/jemimarenovates/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+                <p class="footer-copy">&copy; 2026 Jemima Renovates. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+        var toggle = document.querySelector('.nav-toggle');
+        var menu = document.querySelector('.nav-menu');
+        if (!toggle || !menu) return;
+        toggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            var open = menu.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+        });
+        document.addEventListener('click', function() {
+            menu.classList.remove('open');
+            toggle.setAttribute('aria-expanded', false);
+        });
+    })();
+    </script>
+    <script src="../js/lightbox.js"></script>
+</body>
+</html>

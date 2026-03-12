@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southside - Jemima Renovates</title>
+    <meta name="description" content="A two-bedroom tenement apartment in Glasgow's Southside, sourced and furnished to executive standard.">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="../favicon.ico" sizes="32x32">
+    <link rel="canonical" href="https://jemimarenovates.co.uk/projects/southside.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Southside - Jemima Renovates">
+    <meta property="og:description" content="Two-bedroom tenement apartment in Glasgow's Southside, furnished to executive standard.">
+    <meta property="og:url" content="https://jemimarenovates.co.uk/projects/southside.html">
+</head>
+<body>
+    <a href="#main" class="skip-to-content">Skip to content</a>
+
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a href="../index.html" class="nav-logo">
+            <img src="../logo.jpg" alt="Jemima Renovates">
+            <span>Jemima Renovates</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu">
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../projects.html" class="active">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <section class="page-hero" style="background-image: url('../images/craigpark-1.jpg');">
+            <h1>Southside</h1>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <dl class="project-meta">
+                    <div>
+                        <dt>Location</dt>
+                        <dd>Southside, Glasgow</dd>
+                    </div>
+                    <div>
+                        <dt>Type</dt>
+                        <dd>2 Bed Tenement Flat</dd>
+                    </div>
+                    <div>
+                        <dt>Scope</dt>
+                        <dd>Sourcing &amp; executive furnishing</dd>
+                    </div>
+                    <div>
+                        <dt>Yield</dt>
+                        <dd>7.1%</dd>
+                    </div>
+                </dl>
+
+                <p class="project-description">The client was from Europe and looking to extend their current portfolio in Glasgow. A returning client after a successful previous relationship, they were keen to move quickly and didn't want any renovation or decoration done.</p>
+
+                <p class="project-description">We found a two-bedroom tenement apartment that had already been fully renovated to an excellent standard in the south-east of the city. The client wanted a quick turnaround so we completed within 5 weeks. We furnished the property to an executive standard in express time, and it was reserved on the first viewing — the tenants willing to pay 6 months in advance to secure it.</p>
+
+                <div class="image-gallery">
+                    <div class="gallery-item full-bleed">
+                        <img src="../images/craigpark-1.jpg" alt="Modern living space">
+                    </div>
+                </div>
+
+                <nav class="project-nav" aria-label="Project navigation">
+                    <a href="city-centre.html">&larr; Previous Project</a>
+                    <a href="../projects.html">All Projects</a>
+                    <span></span>
+                </nav>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="../about.html">About</a>
+                    <a href="../projects.html">Projects</a>
+                    <a href="../contact.html">Contact</a>
+                    <a href="https://www.instagram.com/jemimarenovates/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+                <p class="footer-copy">&copy; 2026 Jemima Renovates. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+        var toggle = document.querySelector('.nav-toggle');
+        var menu = document.querySelector('.nav-menu');
+        if (!toggle || !menu) return;
+        toggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            var open = menu.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+        });
+        document.addEventListener('click', function() {
+            menu.classList.remove('open');
+            toggle.setAttribute('aria-expanded', false);
+        });
+    })();
+    </script>
+    <script src="../js/lightbox.js"></script>
+</body>
+</html>

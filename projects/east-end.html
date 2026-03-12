@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>East End - Jemima Renovates</title>
+    <meta name="description" content="Full renovation of a one-bedroom tenement flat in Glasgow's East End. Property sourcing, renovation and letting by Jemima Spence.">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="../favicon.ico" sizes="32x32">
+    <link rel="canonical" href="https://jemimarenovates.co.uk/projects/east-end.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="East End - Jemima Renovates">
+    <meta property="og:description" content="Full renovation of a one-bedroom tenement flat in Glasgow's East End.">
+    <meta property="og:url" content="https://jemimarenovates.co.uk/projects/east-end.html">
+</head>
+<body>
+    <a href="#main" class="skip-to-content">Skip to content</a>
+
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a href="../index.html" class="nav-logo">
+            <img src="../logo.jpg" alt="Jemima Renovates">
+            <span>Jemima Renovates</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu">
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../projects.html" class="active">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <section class="page-hero" style="background-image: url('../images/aberfeldy-lounge.jpg');">
+            <h1>East End</h1>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <dl class="project-meta">
+                    <div>
+                        <dt>Location</dt>
+                        <dd>East End, Glasgow</dd>
+                    </div>
+                    <div>
+                        <dt>Type</dt>
+                        <dd>1 Bed Tenement Flat</dd>
+                    </div>
+                    <div>
+                        <dt>Scope</dt>
+                        <dd>Full renovation</dd>
+                    </div>
+                    <div>
+                        <dt>Yield</dt>
+                        <dd>8%</dd>
+                    </div>
+                </dl>
+
+                <p class="project-description">The client was a couple from Europe whose son had studied in the city. They had several properties in another English city but were keen to buy in Glasgow. After several failed attempts to buy on their own — the distance making viewings impossible — they came to us with a set budget and realistic rental return in mind.</p>
+
+                <p class="project-description">We secured a one-bedroom tenement flat that had seen better days with a very odd layout. After a full renovation to ensure the property flowed perfectly, the property was reserved on the first viewing by a lovely couple who were delighted with the modern decor.</p>
+
+                <div class="image-gallery">
+                    <div class="gallery-item full-bleed">
+                        <img src="../images/aberfeldy-lounge.jpg" alt="Renovated lounge with bay window">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/argyle-st-crop.jpg" alt="Interior detail">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/jay-portrait-1.png" alt="Interior detail">
+                    </div>
+                </div>
+
+                <nav class="project-nav" aria-label="Project navigation">
+                    <span></span>
+                    <a href="../projects.html">All Projects</a>
+                    <a href="city-centre.html">Next Project &rarr;</a>
+                </nav>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="../about.html">About</a>
+                    <a href="../projects.html">Projects</a>
+                    <a href="../contact.html">Contact</a>
+                    <a href="https://www.instagram.com/jemimarenovates/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+                <p class="footer-copy">&copy; 2026 Jemima Renovates. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+        var toggle = document.querySelector('.nav-toggle');
+        var menu = document.querySelector('.nav-menu');
+        if (!toggle || !menu) return;
+        toggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            var open = menu.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+        });
+        document.addEventListener('click', function() {
+            menu.classList.remove('open');
+            toggle.setAttribute('aria-expanded', false);
+        });
+    })();
+    </script>
+    <script src="../js/lightbox.js"></script>
+</body>
+</html>
