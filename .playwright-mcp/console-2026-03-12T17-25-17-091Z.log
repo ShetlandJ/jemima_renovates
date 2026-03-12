@@ -1,0 +1,30 @@
+[     149ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8090/images/contact-hero.jpg:0
+[   62948ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/logo.jpg:0
+[   63010ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/images/contact-hero.jpg:0
+[   78988ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/logo.jpg:0
+[   78991ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
+[   78993ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/images/contact-hero.jpg:0
+[   98082ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/logo.jpg:0
+[   98083ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/images/project-placeholder.jpg:0
+[   98083ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/images/about-placeholder.jpg:0
+[   98087ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
+[   98096ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/images/hero.jpg:0
+[  126451ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/logo.jpg:0
+[  126451ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/images/project-placeholder.jpg:0
+[  126452ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/images/about-placeholder.jpg:0
+[  126457ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
+[  126463ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/images/hero.jpg:0
+[  126524ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/logo.jpg:0
+[  126525ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/images/about-placeholder.jpg:0
+[  126525ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/images/about-wide.jpg:0
+[  126528ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
+[  126535ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8090/images/about-hero.jpg:0
+[  281365ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.kelvingrovepropertysourcing.com/case-studies:0
+[  740930ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
+[  742211ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
+[  743537ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
+[  758675ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
+[  760694ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
+[ 1154597ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
+[ 1201191ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
+[ 1354164ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap:0
